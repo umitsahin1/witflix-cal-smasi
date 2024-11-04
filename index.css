@@ -100,15 +100,19 @@ div span:nth-child(1) {
   background-color: red;
   border: none;
   color: white;
-  padding: 1rem 2.8rem 1rem 1rem;
+  padding: 0.8rem 2.8rem 0.8rem 0.8rem;
   display: flex;
   gap: 1rem;
   border-radius: 0.6rem;
   justify-content: flex-start;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
 }
 
 /*/ section.suggestion/*/
+.popular-movies {
+  margin-bottom: 3rem;
+}
 
 .popular-movies-header {
   display: flex;
@@ -127,6 +131,8 @@ div span:nth-child(1) {
   margin-right: 3.5rem;
   padding-left: 2rem;
   align-content: center;
+  background-image: url("https://www.perasinema.com/wp-content/uploads/2018/05/holymotors2.jpg");
+  background-size: cover;
 }
 .movies {
   display: flex;
@@ -136,21 +142,24 @@ div span:nth-child(1) {
   font-size: 2rem;
   margin: 0;
   padding: 1rem 0;
+  color: white;
 }
 .movies .p-content-rating {
   color: black;
   font-weight: lighter;
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 0.25rem;
   border-radius: 0.25rem;
   margin-right: 0.8rem;
   font-size: 1rem;
   margin-bottom: 1rem;
+  color: white;
 }
 .movies .p-movies-duraton {
   font-weight: bold;
   font-size: 1rem;
   margin-bottom: 1rem;
+  color: white;
 }
 .scroll-movies button {
   background-color: red;
@@ -162,4 +171,18 @@ div span:nth-child(1) {
   border-radius: 0.6rem;
   justify-content: flex-start;
   font-size: 1.1rem;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.information div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 80%;
+}
+.information .lorem {
+  width: 80%;
 }
