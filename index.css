@@ -57,7 +57,6 @@ header h1 {
   margin: 2rem auto;
   position: relative;
   color: white;
-  text-shadow: 10remrem;
 }
 .background-video {
   position: absolute;
@@ -98,6 +97,62 @@ div span:nth-child(1) {
 }
 
 .hero-section button {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 1rem 2.8rem 1rem 1rem;
+  display: flex;
+  gap: 1rem;
+  border-radius: 0.6rem;
+  justify-content: flex-start;
+  font-size: 1.1rem;
+}
+
+/*/ section.suggestion/*/
+
+.popular-movies-header {
+  display: flex;
+  justify-content: space-between;
+}
+.scroll-1 {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.scroll-movies {
+  aspect-ratio: 5/3;
+  display: inline-block;
+  align-items: center;
+  border: 1px solid black;
+  width: 475px;
+  margin-right: 3.5rem;
+  padding-left: 2rem;
+  align-content: center;
+}
+.movies {
+  display: flex;
+  align-items: center;
+}
+.scroll-movies h4 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 1rem 0;
+}
+.movies .p-content-rating {
+  color: black;
+  font-weight: lighter;
+  border: 1px solid black;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin-right: 0.8rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.movies .p-movies-duraton {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.scroll-movies button {
   background-color: red;
   border: none;
   color: white;
