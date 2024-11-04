@@ -1,51 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="index.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Witflix || Anasayfa</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Witflix</h1>
-        <nav>
-            <a href="">Topic 1</a>
-            <a href="">Topic 2</a>
-            <a href="">Topic 3</a>
-            <a href="">Topic 4</a>
-         </nav>
-        <div class="user-management">
-            <input type="text" placeholder="Search.." name="search">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-bell fa-2x"></i>
-            <img src="https://picsum.photos/50" alt="profil-foto">
-        </div>
+      <h1>Witflix</h1>
+      <nav>
+        <a href="">Topic 1</a>
+        <a href="">Topic 2</a>
+        <a href="">Topic 3</a>
+        <a href="">Topic 4</a>
+      </nav>
+      <div class="user-management">
+        <input type="text" placeholder="Search.." name="search" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bell fa-2x"></i>
+        <img src="https://picsum.photos/50" alt="profil-foto" />
+      </div>
     </header>
 
     <main class="hero">
-        <h2>MOVIE NAME</h2>
-        <div>
-           <span>
+      <video autoplay loop muted class="background-video">
+        <source src="Pulp Fiction .mp4" type="video/mp4" />
+      </video>
+      <div class="hero-section">
+        <h2>PULP FICTION</h2>
+        <div class="film-details-1">
+          <span>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
-            <i class="fa-regular fa-star"></i> </span>
-            <span>7.3 IMDB</span>
-            <span>2 hr 21 min</span>  
+            <i class="fa-regular fa-star"></i>
+          </span>
+          <span class="rating">7.3</span>
+          <span>IMDB</span>
+          <span class="content-rating">16+</span>
+          <span class="film-duration">2 hr 21 min</span>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, maiores veniam reiciendis nisi cum in esse sunt molestiae numquam ipsum.</p>
-        <div>
-            <p><span>Starting:</span>Lorem ipsum dolor sit amet.</p>
-            <p><span>Genre:</span>Lorem, ipsum dolor.</p>
-            <p><span>Tags:</span>Lorem, ipsum dolor.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
+          pariatur quia doloribus repellendus tempore, accusantium, quos
+          voluptatibus velit quidem, minima neque ut quis laboriosam. Dolorum
+          fuga hic suscipit tenetur eum doloremque ducimus! Expedita culpa
+          pariatur, soluta vero possimus neque aliquam!
+        </p>
+        <div class="film-details-2">
+          <p><span>Starting:</span>Lorem ipsum dolor sit amet.</p>
+          <p><span>Genre:</span>Lorem, ipsum dolor.</p>
+          <p><span>Tags:</span>Lorem, ipsum dolor.</p>
         </div>
-        <button ><i class="fa-solid fa-play"></i>Play Now</button>
+        <button><i class="fa-solid fa-play"></i>Play Now</button>
+      </div>
     </main>
-
     <section class="suggestion"></section>
-    <footer></footer>  
-</body>
+    <footer></footer>
+  </body>
 </html>
