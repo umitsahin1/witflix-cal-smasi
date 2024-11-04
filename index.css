@@ -1,0 +1,41 @@
+body {
+    margin: 1rem;
+    padding: 0;
+    font-family: Arial;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+.user-management {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.user-management img {
+    border-radius: 100%;
+    width: 2.4rem;
+}
+.user-management input {
+    padding: 0.4rem;   
+}
+.fa-magnifying-glass {
+    display: flex;
+    position: fixed;
+    margin: 8rem;
+    border: 1px solid   
+}
+
+header nav a {
+    text-decoration: none;
+    color: rgb(96, 92, 92);
+    padding: 0.8rem;
+}
+
+header h1 {
+    color: red;
+    padding: 0;
+    margin: 0;
+}
