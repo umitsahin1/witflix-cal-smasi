@@ -16,6 +16,9 @@ header nav {
   left: 50%;
   transform: translateX(-50%);
 }
+.nav-menu {
+  display: none;
+}
 
 .user-management {
   display: flex;
@@ -53,10 +56,12 @@ header h1 {
   display: flex;
   align-items: center;
   border: 1px solid black;
-  padding: 1rem;
+  padding: 2rem;
   margin: 2rem auto;
   position: relative;
   color: white;
+  height: 50rem;
+  width: 96%;
 }
 .background-video {
   position: absolute;
@@ -121,6 +126,7 @@ div span:nth-child(1) {
 .scroll-1 {
   overflow-x: auto;
   white-space: nowrap;
+  scroll-snap-type: x mandatory;
 }
 .scroll-movies {
   aspect-ratio: 5/3;
@@ -172,10 +178,11 @@ div span:nth-child(1) {
   justify-content: flex-start;
   font-size: 1.1rem;
 }
+/* footer */
 footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  gap: 1rem;
 }
 .information div {
   display: flex;
@@ -183,6 +190,71 @@ footer {
   gap: 1rem;
   width: 80%;
 }
+.information div a {
+  text-decoration: none;
+  color: rgb(78, 75, 75);
+}
+
 .information .lorem {
-  width: 80%;
+  width: 98%;
+  margin-top: 1rem;
+  padding-right: 1rem;
+}
+.information .lorem span {
+  color: black;
+}
+
+footer .follow {
+  width: 200px;
+}
+.logo img {
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+.follow p {
+  margin-top: 0;
+}
+
+footer .store {
+  width: 400px;
+}
+.store p {
+  margin: 0;
+}
+.download img {
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+/* media query bölümü*/
+
+@media (max-width: 500px) {
+  header {
+    flex-wrap: wrap;
+  }
+  header nav {
+    order: 1;
+    width: 100%;
+    justify-content: center;
+    margin-top: 4.5rem;
+  }
+  .user-management {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+  }
+  footer {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+  .information div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+  }
 }
