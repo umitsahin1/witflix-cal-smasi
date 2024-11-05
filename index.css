@@ -44,6 +44,10 @@ header nav a {
   padding: 0.8rem;
 }
 
+header nav a:hover {
+  color: black;
+}
+
 header h1 {
   color: red;
   padding: 0;
@@ -55,7 +59,6 @@ header h1 {
   aspect-ratio: 5/3;
   display: flex;
   align-items: center;
-  border: 1px solid black;
   padding: 2rem;
   margin: 2rem auto;
   position: relative;
@@ -122,7 +125,16 @@ div span:nth-child(1) {
 .popular-movies-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+.popular-movies-header a {
+  text-decoration: none;
+  color: rgb(96, 92, 92);
+}
+.popular-movies-header a:hover {
+  color: black;
+}
+
 .scroll-1 {
   overflow-x: auto;
   white-space: nowrap;
@@ -139,6 +151,7 @@ div span:nth-child(1) {
   align-content: center;
   background-image: url("https://www.perasinema.com/wp-content/uploads/2018/05/holymotors2.jpg");
   background-size: cover;
+  scroll-snap-align: start;
 }
 .movies {
   display: flex;
@@ -192,7 +205,10 @@ footer {
 }
 .information div a {
   text-decoration: none;
-  color: rgb(78, 75, 75);
+  color: rgb(96, 92, 92);
+}
+.information div a:hover {
+  color: black;
 }
 
 .information .lorem {
